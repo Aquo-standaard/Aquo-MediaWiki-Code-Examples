@@ -14,7 +14,7 @@ experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](h
 
 Met *aquodom* is het op eenvoudige wijze mogelijk om de
 aquo-domeintabellen te downloaden en te gebruiken in R. De website voor
-*aquodom* is te vinden via <https://redtent.github.io/aquodom>.
+*aquodom* is te vinden via <https://redtent.github.io/aquodom>. 
 
 ## Installatie
 
