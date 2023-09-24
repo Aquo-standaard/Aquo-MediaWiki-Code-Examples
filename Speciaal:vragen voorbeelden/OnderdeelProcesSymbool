@@ -1,1 +1,17 @@
-
+{{#ask: [[categorie:Begrippen]][[Heeft Functie::+]]
+ |?=Onderdeel
+ |?Definitie (nl)
+ |?Synoniem (nl)=Synoniemen
+ |?Afkorting=Code
+ |?Heeft Functie=Proces
+ |?Gerepresenteerd door=Symbool
+ |format=broadtable
+ |limit=20
+ |offset=0
+ |link=all
+ |sort=
+ |order=asc
+ |headers=show
+ |mainlabel=Label (nl)
+ |class=sortable wikitable smwtable
+}}
