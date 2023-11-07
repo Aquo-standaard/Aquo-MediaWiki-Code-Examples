@@ -1,0 +1,12 @@
+{{#ask: [[Categorie:Begrippen]][[Bron::NCS]][[Synoniem (nl)::+]]
+ |?Synoniem (nl)
+ |format=broadtable
+ |limit=100
+ |offset=0
+ |link=all
+ |sort=
+ |order=asc
+ |headers=show
+ |searchlabel=... meer resultaten
+ |class=sortable wikitable smwtable
+}}
