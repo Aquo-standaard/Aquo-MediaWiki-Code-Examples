@@ -41,22 +41,6 @@ https://www.aquo.nl/index.php?title=Speciaal:Vragen&q=%5B%5BCategorie%3ADomeinwa
 Elk van de bovenstaande parameters is een instructie voor de API over hoe de gegevens moeten worden opgehaald en gepresenteerd. URL-encoding wordt gebruikt om speciale karakters die de URL-syntax zouden verstoren veilig door te geven. Zo staat `%5B` voor de open vierkante haak `[` en `%5D` voor de sluitende vierkante haak `]`. Deze zijn essentieel voor de syntaxis van de querytaal die door de Special:Ask-functie wordt gebruikt.
 
 Naast de Speciaal:Vragen-API is er ook nog de standaard mediawiki-API
-https://www.aquo.nl/w/api.php?action=query&list=categorymembers&cmtitle=Categorie:Domeinwaarden&format=json
 Met deze standaard MediaWiki API kun je weliswaar pagina's in een categorie ophalen of zoeken naar pagina's die bepaalde tekst bevatten, maar je kunt niet zoeken op specifieke eigenschapswaarden of complexe logische combinaties van deze eigenschappen zonder aanzienlijke post-processing van de opgehaalde gegevens. De standaard API is meer gericht op het ophalen van pagina-inhoud, metadata (zoals bewerkingsgeschiedenis en pagina-links), en het uitvoeren van acties zoals bewerken of uploaden.
-https://www.mediawiki.org/wiki/API:Main_page
 
-De MediaWiki API is een web service die interactie biedt met MediaWiki-wiki's zoals de Aquo. Het is een HTTP-based API, wat betekent dat je verzoeken kunt doen via standaard HTTP-methoden zoals GET en POST. De API kan een verscheidenheid aan taken uitvoeren, zoals zoeken naar inhoud, ophalen van pagina's, bewerken, en het aanmaken van accounts.
-
-Een typisch API-verzoek naar een MediaWiki-site ziet eruit als een URL met verschillende parameters die de actie specificeren die je wilt uitvoeren. Bijvoorbeeld, om de inhoud van de Wikipedia-pagina voor "API" op te halen in JSON-formaat, zou je een GET-verzoek kunnen sturen dat er ongeveer zo uitziet:
-
-```
-https://en.wikipedia.org/w/api.php?action=query&titles=API&format=json&prop=revisions&rvprop=content
-```
-
-Hier is een uitleg van de parameters in deze URL:
-
-- `action=query`: Dit vertelt de API dat je een zoekopdracht wilt uitvoeren.
-- `titles=API`: Dit specificeert de titel van de pagina die je wilt opvragen.
-- `format=json`: Dit vraagt om de uitvoer in JSON-formaat.
-- `prop=revisions`: Dit vraagt om de revisie-eigenschappen van de pagina.
-- `rvprop=content`: Dit vraagt om de inhoud van de laatste revisie van de pagina.
+Documentatie over de standaard API is te vinden op: https://www.mediawiki.org/wiki/API:Main_page
